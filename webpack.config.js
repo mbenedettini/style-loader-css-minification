@@ -30,6 +30,7 @@ module.exports = {
       {
         test: /\.(less|css)$/,
         use: [
+          // I have generated `dist-mini-css-extract-plugin` enabling this loader and disabling `style-loader`
           // {
           //   loader: MiniCssExtractPlugin.loader
           // },
