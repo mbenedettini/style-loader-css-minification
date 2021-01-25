@@ -1,0 +1,96 @@
+
+// Content Paddings
+@content-padding-xs-legacy: 5px;
+@content-padding-sm-legacy: 10px;
+@content-padding-legacy: 20px;
+
+@content-padding-xs: 8px;
+@content-padding-sm: 16px;
+@content-padding: 24px;
+@content-padding-med-plus: 32px;
+@content-padding-lg: 40px;
+@content-padding-xl: 52px;
+
+// Fonts
+@font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Helvetica Neue", Arial, sans-serif;
+
+// Font weights
+@extra-thin-weight: 100;
+@thin-weight: 300;
+@default-weight: 400;
+@bold-weight: 500;
+@extra-bold-weight: 700;
+
+@form-item-padding: 24px;
+
+@box-narrow-width: 400px;
+
+
+@content-box-max-width: 800px;
+
+@content-medium-width: 500px;
+
+@content-small-width: 360px;
+
+@content-large-width: 960px;
+
+@content-xl-width: 1100px;
+
+@content-xxl-width: 1366px;
+
+@top-bar-inner-height: 48px;
+
+@top-bar-height: 60px;
+
+@privacy-footer-height: 60px;
+
+@top-bar-theme-color-height: 5px;
+
+@nav-bar-height: 46px;
+
+@menu-padding-left: 24px;
+
+@full-page-z-index: 2;
+
+// was 1000, brought it back down to 900 because it
+// was interfering with modals
+@top-bar-z-index: 900;
+
+// Landscape mode for iPhone 5/SE
+@screen-xs-min: 568px;
+
+@screen-sm-min: 768px;
+
+@screen-md-min: 992px;
+
+@screen-lg-min: 1200px;
+
+@screen-xl-min: 1600px;
+
+@table-row-height: 36px;
+
+@row-height-default: 36px;
+
+@button-xl-height: 44px;
+
+@app-btn-height-xl: 44px;
+
+
+
+@search-width: 250px;
+
+// Z-Index values 100-999 are safe to use for objects that should be below antd's popups, modals, drawers, etc.
+@below-antd-z-index: 100;
+// Z-Index values 2000-∞ are safe to use for objects that should be above antd's popups, modals, drawers, etc.
+@above-antd-z-index: 2000;
+
+
+@document-thumbnail-aspect-ratio: 0.75; // 4:3
+
+@modal-body-lg: calc(100vh - 2 * @top-bar-height - 2 * @content-padding);
+
+.blah-blah {
+    height: @app-btn-height-xl;
+    width: @screen-lg-min;
+}
